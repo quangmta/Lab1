@@ -4,7 +4,7 @@ from __future__ import division
 import udm
 from udm import *
 
-udm = udm('COM1', 921600)
+udm = udm('COM9', 921600)
 print("")
 
 CSR_LED_ADDR    = 0x00000000
